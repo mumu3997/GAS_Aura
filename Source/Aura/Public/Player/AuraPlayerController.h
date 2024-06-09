@@ -23,6 +23,7 @@ public:
 	AAuraPlayerController();
 protected:
 	virtual void BeginPlay() override;
+	// Setup Custom Input Binding
 	virtual  void SetupInputComponent() override;
 
 private:
